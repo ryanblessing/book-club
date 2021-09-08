@@ -28,4 +28,6 @@ const bookSchema = new Schema({
   },
 });
 
-module.exports = book;
+
+
+module.exports = bookSchema;
