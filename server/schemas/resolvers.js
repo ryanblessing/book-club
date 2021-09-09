@@ -14,31 +14,7 @@ const resolvers = {
     }
 
     return foundUser;
-}
-
-   //get all users
-//    users: async () => {
-//        return User.find()
-//        .select('-__v -password')
-//        .populate('books')
-//    },
-
-   //get a user by username
-//    user: async(parent, { username }) => {
-//        return User.findOne({ username })
-//        .select('-__v -password')
-//        .populate('books')
-//    },
-   //find by title?
-//    books: async(parent, {title}) => {
-//        const params = title ? {title} : {};
-//        return Book.find(params).sort({ author: -1 })
-//    },
-
-   //find one book?
-//    book: async(parent, { bookId }) => {
-//        return Book.findOne({ bookId })
-//    },
+    }
 },
    Mutation: {
        addUser: async(parent, args) => {
